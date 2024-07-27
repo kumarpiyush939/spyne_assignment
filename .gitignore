@@ -1,0 +1,8 @@
+venv/
+
+spyne/discussions/__pycache__/
+spyne/spyne/__pycache__/
+spyne/users/__pycache__/
+spyne/discussions/migrations/__pycache__/
+spyne/users/migrations/__pycache__/
+spyne/db.sqlite3
