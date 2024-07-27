@@ -1,7 +1,9 @@
 from rest_framework import generics
-from .models import SpyneUser as User
+# from .models import SpyneUser as User
+from django.contrib.auth import get_user_model
 from .serializers import UserSerializer
 
+User = get_user_model()
 
 class UserCreateView(generics.CreateAPIView):
     queryset = User.objects.all()
